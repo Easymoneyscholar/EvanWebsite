@@ -26,26 +26,6 @@ body {
   line-height: 1.6;
 }
 
-.wiki-bg {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap: 3px;
-  opacity: 0.18;
-  filter: grayscale(1);
-}
-
-.wiki-bg img {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
 a {
   color: var(--rust);
   text-decoration: none;
