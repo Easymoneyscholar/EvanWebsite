@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects — Your Name</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand"><a href="index.html" style="border:none;color:inherit;">Your Name</a></div>
+  <nav>
+    <a href="projects.html">Projects</a>
+    <a href="notes.html">Notes</a>
+    <a href="links.html">Links</a>
+  </nav>
+</header>
+
+<main>
+  <h1 class="fade-in">Projects</h1>
+  <p class="fade-in" style="color: var(--ink-soft);">Things I've made, roughly in the order I made them.</p>
+
+  <div class="project-grid">
+    <div class="project-card fade-in">
+      <h3><a href="projects/reading-constellation.html">Reading Constellation</a></h3>
+      <p>Every book I've read since 2017, plotted as a night sky — click and drag around, hover a star for details.</p>
+    </div>
+
+    <!-- Add new projects here by copying a .project-card block and linking to a page in /projects -->
+    <div class="project-card fade-in">
+      <h3>Next project</h3>
+      <p>Placeholder — replace with your next thing. Drop the project's HTML into /projects and link it here.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  &copy; <span id="year"></span> Your Name
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Name</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .hero { padding: 0; height: 70vh; min-height: 480px; }
+  #stars { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .intro {
+    max-width: 60ch;
+    margin: 0 auto;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">Your Name</div>
+  <nav>
+    <a href="projects.html">Projects</a>
+    <a href="notes.html">Notes</a>
+    <a href="links.html">Links</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <canvas id="stars"></canvas>
+  <div class="hero-content">
+    <h1>Your Name</h1>
+    <p class="tagline">Projects, writing, and things I'm building — shared like a friend, not a feed.</p>
+  </div>
+</section>
+
+<main>
+  <div class="intro fade-in">
+    <p>
+      This is a small corner of the internet where I put things I've made and
+      thoughts I've had, mostly so I can send a link to friends instead of
+      posting into a feed somewhere. Have a look around.
+    </p>
+    <hr class="divider">
+    <p><a href="projects.html">See what I've been building &rarr;</a></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  &copy; <span id="year"></span> Your Name
+</footer>
+
+<script src="js/stars.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

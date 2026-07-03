@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Demo B — CSS-only Motion</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .hero { padding-top: 3rem; }
+  .drift {
+    position: absolute;
+    font-size: 1.4rem;
+    color: var(--moss);
+    opacity: 0.5;
+    animation: float 14s ease-in-out infinite;
+  }
+  .drift.d2 { animation-duration: 18s; animation-delay: -4s; left: 70%; top: 20%; }
+  .drift.d3 { animation-duration: 11s; animation-delay: -7s; left: 15%; top: 55%; }
+  .drift.d1 { left: 45%; top: 10%; }
+  @keyframes float {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    50% { transform: translate(12px, -18px) rotate(6deg); }
+  }
+  .note {
+    max-width: 60ch;
+    margin: 2rem auto 3rem;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">Your Name</div>
+  <nav>
+    <a href="#">Work</a>
+    <a href="#">Blog</a>
+    <a href="#">Links</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="drift d1">✳</span>
+  <span class="drift d2">✦</span>
+  <span class="drift d3">✳</span>
+  <h1>Your Name</h1>
+  <p class="tagline">Projects, writing, and things I'm building — shared like a friend, not a feed.</p>
+</section>
+
+<p class="note">
+  Demo B: no canvas, no JS animation loop — just a few small ink-mark glyphs drifting
+  gently via CSS keyframes, plus cards below that lift and fade in as you scroll.
+  Lighter-weight than Demo A, still not static.
+</p>
+
+<main>
+  <div class="project-grid">
+    <div class="project-card fade-in">
+      <h3>Reading Constellation</h3>
+      <p>An interactive map of every book I've read, plotted like a night sky.</p>
+    </div>
+    <div class="project-card fade-in">
+      <h3>Project Two</h3>
+      <p>Hover over this card — it lifts slightly, like turning over a stone.</p>
+    </div>
+    <div class="project-card fade-in">
+      <h3>Project Three</h3>
+      <p>Scroll down slowly and watch the cards settle into place.</p>
+    </div>
+  </div>
+</main>
+
+<script>
+const io = new IntersectionObserver((entries) => {
+  for (const e of entries) {
+    if (e.isIntersecting) e.target.classList.add('visible');
+  }
+}, { threshold: 0.2 });
+document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
