@@ -83,9 +83,9 @@ const MIN_SIZE = 0.85, MAX_SIZE = 3.4; // rem
 function styleFor(ratio) {
   const t = (Math.log(ratio) - minRatio) / (maxRatio - minRatio);
   const size = MIN_SIZE + t * (MAX_SIZE - MIN_SIZE);
-  // interpolate ink-soft (#6b5c4d) -> rust (#b5533c) as words get more distinctive
-  const from = [0x6b, 0x5c, 0x4d];
-  const to = [0xb5, 0x53, 0x3c];
+  // interpolate ink-soft (#5b7d8c) -> accent (#1b8a9e) as words get more distinctive
+  const from = [0x5b, 0x7d, 0x8c];
+  const to = [0x1b, 0x8a, 0x9e];
   const rgb = from.map((c, i) => Math.round(c + (to[i] - c) * t));
   return { size, color: `rgb(${rgb.join(',')})` };
 }

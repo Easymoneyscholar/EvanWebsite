@@ -2,12 +2,12 @@
 
 :root {
   --paper: #ffffff;
-  --paper-dark: #f6f5f2;
-  --ink: #3a2e26;
-  --ink-soft: #6b5c4d;
-  --rust: #b5533c;
-  --moss: #6b7a53;
-  --line: #d8c9a3;
+  --paper-dark: #eaf2f4;
+  --ink: #1c3a4b;
+  --ink-soft: #5b7d8c;
+  --rust: #1b8a9e;
+  --moss: #2c5f7c;
+  --line: #c9d9de;
   --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
 }
 
