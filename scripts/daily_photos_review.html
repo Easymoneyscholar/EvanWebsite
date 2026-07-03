@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Daily Photos Review</title>
+<style>
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #1b1b1b;
+    color: #eee;
+  }
+  #toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #111;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid #333;
+  }
+  #toolbar button {
+    background: #d97757;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #toolbar button:hover { background: #c9683f; }
+  #status { color: #aaa; font-size: 14px; }
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+  .card {
+    background: #262626;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid transparent;
+  }
+  .card.excluded { border-color: #a33; opacity: 0.45; }
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    background: #333;
+  }
+  .card-body { padding: 10px 12px; }
+  .card-day { font-weight: 600; font-size: 15px; }
+  .card-meta { color: #aaa; font-size: 12.5px; margin-top: 2px; min-height: 1.2em; }
+  .card-controls {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .card-controls button {
+    flex: 1;
+    background: #3a3a3a;
+    color: #eee;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 12.5px;
+    cursor: pointer;
+  }
+  .card-controls button:hover { background: #484848; }
+  .card-controls button.exclude-btn.is-excluded { background: #a33; }
+  .no-photos {
+    color: #888;
+    font-style: italic;
+    padding: 40px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div id="toolbar">
+  <button id="export-btn">Download decisions.json</button>
+  <span id="status"></span>
+</div>
+<div id="grid"></div>
+
+<script>
+const STORAGE_KEY = 'daily-photos-review-state';
+
+let manifest = {};
+let state = {}; // day -> { index: number, excluded: bool }
+
+function loadState() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  return saved ? JSON.parse(saved) : {};
+}
+
+function saveState() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+function dayLabel(dayKey) {
+  const [mm, dd] = dayKey.split('-').map(Number);
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return `${months[mm - 1]} ${dd}`;
+}
+
+function updateStatus() {
+  const days = Object.keys(manifest);
+  const excluded = days.filter(d => state[d]?.excluded).length;
+  document.getElementById('status').textContent =
+    `${days.length} days with photos · ${days.length - excluded} included · ${excluded} excluded`;
+}
+
+function renderCard(dayKey) {
+  const candidates = manifest[dayKey];
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.dataset.day = dayKey;
+
+  const img = document.createElement('img');
+  img.loading = 'lazy';
+
+  const body = document.createElement('div');
+  body.className = 'card-body';
+
+  const dayEl = document.createElement('div');
+  dayEl.className = 'card-day';
+  dayEl.textContent = dayLabel(dayKey);
+
+  const metaEl = document.createElement('div');
+  metaEl.className = 'card-meta';
+
+  const controls = document.createElement('div');
+  controls.className = 'card-controls';
+
+  const shuffleBtn = document.createElement('button');
+  shuffleBtn.textContent = candidates.length > 1 ? `Shuffle (${candidates.length})` : 'Only photo';
+  shuffleBtn.disabled = candidates.length <= 1;
+
+  const excludeBtn = document.createElement('button');
+  excludeBtn.className = 'exclude-btn';
+
+  function refresh() {
+    const s = state[dayKey];
+    const candidate = candidates[s.index];
+    img.src = `images/${candidate.file}`;
+    const bits = [];
+    if (candidate.location) bits.push(candidate.location);
+    bits.push(String(candidate.year));
+    metaEl.textContent = bits.join(' · ');
+    card.classList.toggle('excluded', s.excluded);
+    excludeBtn.textContent = s.excluded ? 'Excluded (undo)' : 'Exclude';
+    excludeBtn.classList.toggle('is-excluded', s.excluded);
+  }
+
+  shuffleBtn.addEventListener('click', () => {
+    const s = state[dayKey];
+    s.index = (s.index + 1) % candidates.length;
+    saveState();
+    refresh();
+  });
+
+  excludeBtn.addEventListener('click', () => {
+    const s = state[dayKey];
+    s.excluded = !s.excluded;
+    saveState();
+    refresh();
+    updateStatus();
+  });
+
+  controls.appendChild(shuffleBtn);
+  controls.appendChild(excludeBtn);
+  body.appendChild(dayEl);
+  body.appendChild(metaEl);
+  body.appendChild(controls);
+  card.appendChild(img);
+  card.appendChild(body);
+
+  refresh();
+  return card;
+}
+
+async function init() {
+  const res = await fetch('manifest.json');
+  manifest = await res.json();
+
+  const saved = loadState();
+  for (const dayKey of Object.keys(manifest)) {
+    state[dayKey] = saved[dayKey] || { index: 0, excluded: false };
+  }
+
+  const grid = document.getElementById('grid');
+  const sortedDays = Object.keys(manifest).sort();
+  for (const dayKey of sortedDays) {
+    grid.appendChild(renderCard(dayKey));
+  }
+
+  updateStatus();
+}
+
+document.getElementById('export-btn').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'decisions.json';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+init();
+</script>
+</body>
+</html>

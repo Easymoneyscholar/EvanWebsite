@@ -6,8 +6,22 @@
 <title>Evan Gold</title>
 <link rel="stylesheet" href="css/style.css">
 <style>
-  .hero { padding: 0; height: 70vh; min-height: 480px; }
-  #stars { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .hero {
+    padding: 0;
+    height: 70vh;
+    min-height: 480px;
+    position: relative;
+    overflow: hidden;
+    background: var(--paper-dark) center / cover no-repeat;
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55));
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+  .hero-overlay.visible { opacity: 1; }
   .hero-content {
     position: relative;
     z-index: 1;
@@ -17,6 +31,26 @@
     align-items: center;
     height: 100%;
   }
+  .hero-content h1 {
+    color: var(--ink);
+    transition: color 0.6s ease;
+  }
+  .hero-overlay.visible ~ .hero-content h1 {
+    color: #fff;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  }
+  .hero-caption {
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.8rem;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+  .hero-caption.visible { opacity: 1; }
 </style>
 </head>
 <body>
@@ -30,18 +64,19 @@
   </nav>
 </header>
 
-<section class="hero">
-  <canvas id="stars"></canvas>
+<section class="hero" id="hero">
+  <div class="hero-overlay" id="hero-overlay"></div>
   <div class="hero-content">
     <h1>Evan Gold</h1>
   </div>
+  <div class="hero-caption" id="hero-caption"></div>
 </section>
 
 <footer class="site-footer">
   &copy; <span id="year"></span> Evan Gold
 </footer>
 
-<script src="js/stars.js"></script>
+<script src="js/daily-photo.js"></script>
 <script src="js/main.js"></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
