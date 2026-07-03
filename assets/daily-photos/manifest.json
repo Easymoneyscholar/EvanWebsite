@@ -1,0 +1,1366 @@
+{
+  "01-01": {
+    "year": 2000,
+    "location": null
+  },
+  "01-02": {
+    "year": 2019,
+    "location": "San Diego, CA, United States"
+  },
+  "01-03": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "01-04": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "01-05": {
+    "year": 2019,
+    "location": "San Diego, CA, United States"
+  },
+  "01-06": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "01-07": {
+    "year": 2026,
+    "location": "Berkeley, CA, United States"
+  },
+  "01-08": {
+    "year": 2018,
+    "location": "Stanford, CA, United States"
+  },
+  "01-09": {
+    "year": 2023,
+    "location": null
+  },
+  "01-10": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "01-11": {
+    "year": 2023,
+    "location": null
+  },
+  "01-12": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "01-13": {
+    "year": 2015,
+    "location": "Stanford, CA, United States"
+  },
+  "01-14": {
+    "year": 2024,
+    "location": "San Francisco, CA, United States"
+  },
+  "01-15": {
+    "year": 2012,
+    "location": null
+  },
+  "01-16": {
+    "year": 2022,
+    "location": "Berkeley, CA, United States"
+  },
+  "01-17": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "01-18": {
+    "year": 2022,
+    "location": null
+  },
+  "01-19": {
+    "year": 2019,
+    "location": "Berkeley, CA, United States"
+  },
+  "01-20": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "01-21": {
+    "year": 2026,
+    "location": null
+  },
+  "01-22": {
+    "year": 2022,
+    "location": "Cambridge, MA, United States"
+  },
+  "01-23": {
+    "year": 2022,
+    "location": "Cambridge, MA, United States"
+  },
+  "01-24": {
+    "year": 2022,
+    "location": "Boston, MA, United States"
+  },
+  "01-25": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "01-26": {
+    "year": 2017,
+    "location": "Stanford, CA, United States"
+  },
+  "01-27": {
+    "year": 2024,
+    "location": null
+  },
+  "01-28": {
+    "year": 2020,
+    "location": "Palo Alto, CA, United States"
+  },
+  "01-29": {
+    "year": 2017,
+    "location": "Redwood City, CA, United States"
+  },
+  "01-30": {
+    "year": 2023,
+    "location": null
+  },
+  "01-31": {
+    "year": 2026,
+    "location": null
+  },
+  "02-01": {
+    "year": 2020,
+    "location": "Stanford, CA, United States"
+  },
+  "02-02": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "02-03": {
+    "year": 2016,
+    "location": "Stanford, CA, United States"
+  },
+  "02-04": {
+    "year": 2023,
+    "location": "Carmel, CA, United States"
+  },
+  "02-05": {
+    "year": 2023,
+    "location": null
+  },
+  "02-06": {
+    "year": 2025,
+    "location": "Stanford, CA, United States"
+  },
+  "02-07": {
+    "year": 2026,
+    "location": null
+  },
+  "02-08": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "02-09": {
+    "year": 2024,
+    "location": "San Francisco, CA, United States"
+  },
+  "02-10": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "02-11": {
+    "year": 2022,
+    "location": null
+  },
+  "02-12": {
+    "year": 2022,
+    "location": "Los Gatos, CA, United States"
+  },
+  "02-13": {
+    "year": 2026,
+    "location": "Berkeley, CA, United States"
+  },
+  "02-14": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "02-15": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "02-16": {
+    "year": 2026,
+    "location": null
+  },
+  "02-17": {
+    "year": 2017,
+    "location": "Stanford, CA, United States"
+  },
+  "02-18": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "02-19": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "02-20": {
+    "year": 2026,
+    "location": "Orinda, CA, United States"
+  },
+  "02-21": {
+    "year": 2022,
+    "location": null
+  },
+  "02-22": {
+    "year": 2026,
+    "location": "Oakland, CA, United States"
+  },
+  "02-23": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "02-24": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "02-25": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "02-26": {
+    "year": 2026,
+    "location": "Orinda, CA, United States"
+  },
+  "02-27": {
+    "year": 2026,
+    "location": "Berkeley, CA, United States"
+  },
+  "02-28": {
+    "year": 2026,
+    "location": null
+  },
+  "03-01": {
+    "year": 2026,
+    "location": "Berkeley, CA, United States"
+  },
+  "03-02": {
+    "year": 2025,
+    "location": null
+  },
+  "03-03": {
+    "year": 2019,
+    "location": "Stanford, CA, United States"
+  },
+  "03-04": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "03-05": {
+    "year": 2023,
+    "location": "Mountain View, CA, United States"
+  },
+  "03-06": {
+    "year": 2022,
+    "location": "Vista, CA, United States"
+  },
+  "03-07": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "03-08": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "03-09": {
+    "year": 2019,
+    "location": "Westminster, CA, United States"
+  },
+  "03-10": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "03-12": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "03-13": {
+    "year": 2020,
+    "location": "Palo Alto, CA, United States"
+  },
+  "03-14": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "03-15": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "03-16": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "03-17": {
+    "year": 2023,
+    "location": "Lebec, CA, United States"
+  },
+  "03-18": {
+    "year": 2023,
+    "location": "Newport Beach, CA, United States"
+  },
+  "03-19": {
+    "year": 2020,
+    "location": "Stanford, CA, United States"
+  },
+  "03-20": {
+    "year": 2020,
+    "location": "Stanford, CA, United States"
+  },
+  "03-21": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "03-22": {
+    "year": 2023,
+    "location": "Sausalito, CA, United States"
+  },
+  "03-23": {
+    "year": 2019,
+    "location": "Stanford, CA, United States"
+  },
+  "03-25": {
+    "year": 2020,
+    "location": null
+  },
+  "03-26": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "03-27": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "03-28": {
+    "year": 2020,
+    "location": "Stanford, CA, United States"
+  },
+  "03-29": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "03-30": {
+    "year": 2020,
+    "location": "Los Altos Hills, CA, United States"
+  },
+  "03-31": {
+    "year": 2026,
+    "location": "Berkeley, CA, United States"
+  },
+  "04-01": {
+    "year": 2023,
+    "location": "San Diego, CA, United States"
+  },
+  "04-02": {
+    "year": 2022,
+    "location": "Stanford, CA, United States"
+  },
+  "04-03": {
+    "year": 2022,
+    "location": "San Francisco, CA, United States"
+  },
+  "04-04": {
+    "year": 2021,
+    "location": "Incline Village, NV, United States"
+  },
+  "04-05": {
+    "year": 2024,
+    "location": "Fallbrook, CA, United States"
+  },
+  "04-06": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "04-07": {
+    "year": 2017,
+    "location": "Washington, DC, United States"
+  },
+  "04-08": {
+    "year": 2023,
+    "location": "Half Moon Bay, CA, United States"
+  },
+  "04-09": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "04-10": {
+    "year": 2021,
+    "location": "Fresno, CA, United States"
+  },
+  "04-11": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "04-13": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "04-14": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "04-15": {
+    "year": 2022,
+    "location": "Providence, RI, United States"
+  },
+  "04-16": {
+    "year": 2022,
+    "location": "Providence, RI, United States"
+  },
+  "04-17": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "04-18": {
+    "year": 2026,
+    "location": "Berkeley, CA, United States"
+  },
+  "04-19": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "04-20": {
+    "year": 2026,
+    "location": "Stanford, CA, United States"
+  },
+  "04-21": {
+    "year": 2026,
+    "location": "Stanford, CA, United States"
+  },
+  "04-22": {
+    "year": 2018,
+    "location": "Stanford, CA, United States"
+  },
+  "04-23": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "04-25": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "04-26": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "04-27": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "04-28": {
+    "year": 2026,
+    "location": null
+  },
+  "04-29": {
+    "year": 2026,
+    "location": "San Rafael, CA, United States"
+  },
+  "05-02": {
+    "year": 2026,
+    "location": "Stanford, CA, United States"
+  },
+  "05-03": {
+    "year": 2021,
+    "location": null
+  },
+  "05-04": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "05-05": {
+    "year": 2020,
+    "location": "Susanville, CA, United States"
+  },
+  "05-06": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "05-07": {
+    "year": 2023,
+    "location": null
+  },
+  "05-08": {
+    "year": 2020,
+    "location": "Mountain View, CA, United States"
+  },
+  "05-09": {
+    "year": 2020,
+    "location": "Augusta, MT, United States"
+  },
+  "05-10": {
+    "year": 2020,
+    "location": "Fairfield, MT, United States"
+  },
+  "05-11": {
+    "year": 2022,
+    "location": null
+  },
+  "05-12": {
+    "year": 2020,
+    "location": null
+  },
+  "05-13": {
+    "year": 2023,
+    "location": "San Francisco, CA, United States"
+  },
+  "05-14": {
+    "year": 2017,
+    "location": "Santa Rosa, CA, United States"
+  },
+  "05-15": {
+    "year": 2021,
+    "location": null
+  },
+  "05-16": {
+    "year": 2025,
+    "location": "Stanford, CA, United States"
+  },
+  "05-17": {
+    "year": 2023,
+    "location": null
+  },
+  "05-18": {
+    "year": 2018,
+    "location": "San Mateo, CA, United States"
+  },
+  "05-19": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "05-20": {
+    "year": 2020,
+    "location": "Los Altos Hills, CA, United States"
+  },
+  "05-21": {
+    "year": 2018,
+    "location": "Stanford, CA, United States"
+  },
+  "05-22": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "05-23": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "05-24": {
+    "year": 2021,
+    "location": null
+  },
+  "05-25": {
+    "year": 2020,
+    "location": "Stanford, CA, United States"
+  },
+  "05-26": {
+    "year": 2019,
+    "location": "Stanford, CA, United States"
+  },
+  "05-27": {
+    "year": 2026,
+    "location": null
+  },
+  "05-28": {
+    "year": 2020,
+    "location": null
+  },
+  "05-29": {
+    "year": 2026,
+    "location": "Stanford, CA, United States"
+  },
+  "05-30": {
+    "year": 2026,
+    "location": null
+  },
+  "05-31": {
+    "year": 2021,
+    "location": "Palo Alto, CA, United States"
+  },
+  "06-01": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "06-02": {
+    "year": 2025,
+    "location": "Boston, MA, United States"
+  },
+  "06-04": {
+    "year": 2021,
+    "location": "Palo Alto, CA, United States"
+  },
+  "06-05": {
+    "year": 2023,
+    "location": "Toronto, ON, Canada"
+  },
+  "06-06": {
+    "year": 2023,
+    "location": "Sarasota, FL, United States"
+  },
+  "06-08": {
+    "year": 2021,
+    "location": "CA, United States"
+  },
+  "06-09": {
+    "year": 2024,
+    "location": "San Francisco, CA, United States"
+  },
+  "06-10": {
+    "year": 2025,
+    "location": "Craftsbury Common, VT, United States"
+  },
+  "06-11": {
+    "year": 2026,
+    "location": "Philadelphia, PA, United States"
+  },
+  "06-12": {
+    "year": 2019,
+    "location": null
+  },
+  "06-13": {
+    "year": 2021,
+    "location": "Council Bluffs, IA, United States"
+  },
+  "06-14": {
+    "year": 2025,
+    "location": "Greensboro, VT, United States"
+  },
+  "06-15": {
+    "year": 2023,
+    "location": "Susanville, CA, United States"
+  },
+  "06-16": {
+    "year": 2023,
+    "location": "Susanville, CA, United States"
+  },
+  "06-17": {
+    "year": 2018,
+    "location": "Stanford, CA, United States"
+  },
+  "06-18": {
+    "year": 2020,
+    "location": "Susanville, CA, United States"
+  },
+  "06-19": {
+    "year": 2022,
+    "location": null
+  },
+  "06-20": {
+    "year": 2020,
+    "location": "Mill Creek, CA, United States"
+  },
+  "06-21": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "06-22": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "06-23": {
+    "year": 2023,
+    "location": "Redwood City, CA, United States"
+  },
+  "06-24": {
+    "year": 2021,
+    "location": null
+  },
+  "06-25": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "06-26": {
+    "year": 2022,
+    "location": null
+  },
+  "06-27": {
+    "year": 2022,
+    "location": null
+  },
+  "06-28": {
+    "year": 2020,
+    "location": "Los Gatos, CA, United States"
+  },
+  "06-29": {
+    "year": 2022,
+    "location": null
+  },
+  "06-30": {
+    "year": 2023,
+    "location": "Paris, \u00cele-de-France, France"
+  },
+  "07-01": {
+    "year": 2023,
+    "location": "Paris, \u00cele-de-France, France"
+  },
+  "07-02": {
+    "year": 2020,
+    "location": "Augusta, MT, United States"
+  },
+  "07-03": {
+    "year": 2023,
+    "location": "Lyon, Auvergne-Rh\u00f4ne-Alpes, France"
+  },
+  "07-04": {
+    "year": 2023,
+    "location": "Lyon, Auvergne-Rh\u00f4ne-Alpes, France"
+  },
+  "07-05": {
+    "year": 2023,
+    "location": "Lyon, Auvergne-Rh\u00f4ne-Alpes, France"
+  },
+  "07-06": {
+    "year": 2023,
+    "location": "Avignon, Provence-Alpes-C\u00f4te d'Azur, France"
+  },
+  "07-07": {
+    "year": 2023,
+    "location": "Avignon, Provence-Alpes-C\u00f4te d'Azur, France"
+  },
+  "07-08": {
+    "year": 2020,
+    "location": "Augusta, MT, United States"
+  },
+  "07-09": {
+    "year": 2023,
+    "location": "Carcassonne, Occitanie, France"
+  },
+  "07-10": {
+    "year": 2020,
+    "location": "Augusta, MT, United States"
+  },
+  "07-11": {
+    "year": 2020,
+    "location": "Augusta, MT, United States"
+  },
+  "07-12": {
+    "year": 2023,
+    "location": "M\u00e1laga, Spain"
+  },
+  "07-13": {
+    "year": 2023,
+    "location": "Tangier, Tanger-Tetouan-Al Hoceima, Morocco"
+  },
+  "07-14": {
+    "year": 2025,
+    "location": "Corte Madera, CA, United States"
+  },
+  "07-15": {
+    "year": 2023,
+    "location": "Casablanca, Casablanca-Settat, Morocco"
+  },
+  "07-16": {
+    "year": 2018,
+    "location": "Palo Alto, CA, United States"
+  },
+  "07-17": {
+    "year": 2023,
+    "location": "Marrakesh, Marrakesh-Safi, Morocco"
+  },
+  "07-18": {
+    "year": 2023,
+    "location": "Marrakesh, Marrakesh-Safi, Morocco"
+  },
+  "07-19": {
+    "year": 2023,
+    "location": "Sti Fadma, Marrakesh-Safi, Morocco"
+  },
+  "07-20": {
+    "year": 2023,
+    "location": "Old City Jerusalem"
+  },
+  "07-21": {
+    "year": 2023,
+    "location": "Jerusalem, Jerusalem District, Israel"
+  },
+  "07-22": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "07-23": {
+    "year": 2023,
+    "location": "Hebron"
+  },
+  "07-24": {
+    "year": 2023,
+    "location": "Ein Bokek, Southern District, Israel"
+  },
+  "07-25": {
+    "year": 2017,
+    "location": "Palo Alto, CA, United States"
+  },
+  "07-26": {
+    "year": 2023,
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel"
+  },
+  "07-27": {
+    "year": 2025,
+    "location": null
+  },
+  "07-28": {
+    "year": 2025,
+    "location": null
+  },
+  "07-30": {
+    "year": 2023,
+    "location": "San Gregorio, CA, United States"
+  },
+  "07-31": {
+    "year": 2017,
+    "location": "Pescadero, CA, United States"
+  },
+  "08-01": {
+    "year": 2017,
+    "location": "Pescadero, CA, United States"
+  },
+  "08-02": {
+    "year": 2017,
+    "location": "Pescadero, CA, United States"
+  },
+  "08-03": {
+    "year": 2024,
+    "location": "Bothell, WA, United States"
+  },
+  "08-04": {
+    "year": 2017,
+    "location": "Markleeville, CA, United States"
+  },
+  "08-05": {
+    "year": 2021,
+    "location": "Gilroy, CA, United States"
+  },
+  "08-06": {
+    "year": 2021,
+    "location": "Morgan Hill, CA, United States"
+  },
+  "08-07": {
+    "year": 2021,
+    "location": null
+  },
+  "08-08": {
+    "year": 2025,
+    "location": "St. Catharines, ON, Canada"
+  },
+  "08-09": {
+    "year": 2022,
+    "location": "Diamond Harbour, Canterbury, New Zealand"
+  },
+  "08-10": {
+    "year": 2022,
+    "location": "Diamond Harbour, Canterbury, New Zealand"
+  },
+  "08-11": {
+    "year": 2022,
+    "location": "Akaroa, Canterbury, New Zealand"
+  },
+  "08-12": {
+    "year": 2022,
+    "location": "Diamond Harbour, Canterbury, New Zealand"
+  },
+  "08-13": {
+    "year": 2017,
+    "location": "CA, United States"
+  },
+  "08-14": {
+    "year": 2022,
+    "location": "Diamond Harbour, Canterbury, New Zealand"
+  },
+  "08-15": {
+    "year": 2022,
+    "location": "Diamond Harbour, Canterbury, New Zealand"
+  },
+  "08-16": {
+    "year": 2022,
+    "location": "Diamond Harbour, Canterbury, New Zealand"
+  },
+  "08-17": {
+    "year": 2022,
+    "location": "Christchurch, Canterbury, New Zealand"
+  },
+  "08-18": {
+    "year": 2022,
+    "location": "Diamond Harbour, Canterbury, New Zealand"
+  },
+  "08-19": {
+    "year": 2025,
+    "location": null
+  },
+  "08-20": {
+    "year": 2023,
+    "location": "Berkeley, CA, United States"
+  },
+  "08-21": {
+    "year": 2025,
+    "location": "Stanford, CA, United States"
+  },
+  "08-22": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "08-23": {
+    "year": 2025,
+    "location": "New York, NY, United States"
+  },
+  "08-24": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "08-25": {
+    "year": 2023,
+    "location": "San Francisco, CA, United States"
+  },
+  "08-26": {
+    "year": 2022,
+    "location": null
+  },
+  "08-27": {
+    "year": 2022,
+    "location": null
+  },
+  "08-28": {
+    "year": 2021,
+    "location": "CA, United States"
+  },
+  "08-29": {
+    "year": 2024,
+    "location": null
+  },
+  "08-30": {
+    "year": 2022,
+    "location": null
+  },
+  "08-31": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "09-01": {
+    "year": 2020,
+    "location": null
+  },
+  "09-02": {
+    "year": 2023,
+    "location": null
+  },
+  "09-03": {
+    "year": 2017,
+    "location": "San Francisco, CA, United States"
+  },
+  "09-04": {
+    "year": 2017,
+    "location": "Stanford, CA, United States"
+  },
+  "09-05": {
+    "year": 2022,
+    "location": "Montara, CA, United States"
+  },
+  "09-07": {
+    "year": 2021,
+    "location": null
+  },
+  "09-08": {
+    "year": 2017,
+    "location": "Stanford, CA, United States"
+  },
+  "09-09": {
+    "year": 2021,
+    "location": null
+  },
+  "09-11": {
+    "year": 2022,
+    "location": "CA, United States"
+  },
+  "09-12": {
+    "year": 2017,
+    "location": "Stanford, CA, United States"
+  },
+  "09-13": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "09-14": {
+    "year": 2021,
+    "location": null
+  },
+  "09-15": {
+    "year": 2021,
+    "location": null
+  },
+  "09-16": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "09-17": {
+    "year": 2022,
+    "location": "Los Gatos, CA, United States"
+  },
+  "09-19": {
+    "year": 2023,
+    "location": "Berkeley, CA, United States"
+  },
+  "09-20": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "09-21": {
+    "year": 2023,
+    "location": "Orinda, CA, United States"
+  },
+  "09-22": {
+    "year": 2024,
+    "location": "Alameda, CA, United States"
+  },
+  "09-23": {
+    "year": 2022,
+    "location": "Durham, NC, United States"
+  },
+  "09-24": {
+    "year": 2022,
+    "location": "Morrisville, NC, United States"
+  },
+  "09-25": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "09-26": {
+    "year": 2023,
+    "location": "Alameda, CA, United States"
+  },
+  "09-27": {
+    "year": 2023,
+    "location": "Berkeley, CA, United States"
+  },
+  "09-28": {
+    "year": 2022,
+    "location": "Stanford, CA, United States"
+  },
+  "09-29": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "09-30": {
+    "year": 2022,
+    "location": "Berkeley, CA, United States"
+  },
+  "10-02": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "10-03": {
+    "year": 2021,
+    "location": null
+  },
+  "10-04": {
+    "year": 2023,
+    "location": null
+  },
+  "10-05": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "10-06": {
+    "year": 2017,
+    "location": "Palo Alto, CA, United States"
+  },
+  "10-08": {
+    "year": 2022,
+    "location": "Stanford, CA, United States"
+  },
+  "10-09": {
+    "year": 2017,
+    "location": "Stanford, CA, United States"
+  },
+  "10-10": {
+    "year": 2023,
+    "location": "Oakland, CA, United States"
+  },
+  "10-11": {
+    "year": 2021,
+    "location": "Palo Alto, CA, United States"
+  },
+  "10-12": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "10-13": {
+    "year": 2021,
+    "location": "Palo Alto, CA, United States"
+  },
+  "10-14": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "10-15": {
+    "year": 2020,
+    "location": "Stanford, CA, United States"
+  },
+  "10-16": {
+    "year": 2021,
+    "location": null
+  },
+  "10-17": {
+    "year": 2022,
+    "location": "Providence, RI, United States"
+  },
+  "10-18": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "10-19": {
+    "year": 2024,
+    "location": "Stanford, CA, United States"
+  },
+  "10-20": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "10-22": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "10-24": {
+    "year": 2022,
+    "location": "Stanford, CA, United States"
+  },
+  "10-25": {
+    "year": 2019,
+    "location": "Palo Alto, CA, United States"
+  },
+  "10-26": {
+    "year": 2018,
+    "location": null
+  },
+  "10-27": {
+    "year": 2024,
+    "location": null
+  },
+  "10-28": {
+    "year": 2017,
+    "location": "Burlingame, CA, United States"
+  },
+  "10-29": {
+    "year": 2022,
+    "location": "CA, United States"
+  },
+  "10-30": {
+    "year": 2022,
+    "location": null
+  },
+  "10-31": {
+    "year": 2024,
+    "location": null
+  },
+  "11-01": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "11-02": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "11-03": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "11-04": {
+    "year": 2021,
+    "location": "Palo Alto, CA, United States"
+  },
+  "11-05": {
+    "year": 2019,
+    "location": "Palo Alto, CA, United States"
+  },
+  "11-06": {
+    "year": 2022,
+    "location": "Seattle, WA, United States"
+  },
+  "11-07": {
+    "year": 2022,
+    "location": null
+  },
+  "11-08": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "11-09": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "11-11": {
+    "year": 2025,
+    "location": "Stinson Beach, CA, United States"
+  },
+  "11-13": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "11-14": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "11-15": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "11-16": {
+    "year": 2025,
+    "location": "Oakland, CA, United States"
+  },
+  "11-17": {
+    "year": 2023,
+    "location": "San Francisco, CA, United States"
+  },
+  "11-18": {
+    "year": 2023,
+    "location": null
+  },
+  "11-19": {
+    "year": 2017,
+    "location": "CA, United States"
+  },
+  "11-20": {
+    "year": 2022,
+    "location": "Mill Creek, CA, United States"
+  },
+  "11-21": {
+    "year": 2022,
+    "location": "Susanville, CA, United States"
+  },
+  "11-22": {
+    "year": 2022,
+    "location": "Susanville, CA, United States"
+  },
+  "11-23": {
+    "year": 2023,
+    "location": "Susanville, CA, United States"
+  },
+  "11-24": {
+    "year": 2024,
+    "location": "San Francisco, CA, United States"
+  },
+  "11-26": {
+    "year": 2023,
+    "location": "Stanford, CA, United States"
+  },
+  "11-27": {
+    "year": 2025,
+    "location": "Susanville, CA, United States"
+  },
+  "11-28": {
+    "year": 2024,
+    "location": "Stanford, CA, United States"
+  },
+  "11-29": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "11-30": {
+    "year": 2019,
+    "location": "Stanford, CA, United States"
+  },
+  "12-01": {
+    "year": 2021,
+    "location": "Palo Alto, CA, United States"
+  },
+  "12-02": {
+    "year": 2025,
+    "location": null
+  },
+  "12-03": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "12-04": {
+    "year": 2015,
+    "location": "Stanford, CA, United States"
+  },
+  "12-05": {
+    "year": 2022,
+    "location": null
+  },
+  "12-07": {
+    "year": 2024,
+    "location": "Orinda, CA, United States"
+  },
+  "12-09": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "12-10": {
+    "year": 2020,
+    "location": null
+  },
+  "12-11": {
+    "year": 2019,
+    "location": "Palo Alto, CA, United States"
+  },
+  "12-12": {
+    "year": 2022,
+    "location": "Reno, NV, United States"
+  },
+  "12-13": {
+    "year": 2025,
+    "location": "Berkeley, CA, United States"
+  },
+  "12-14": {
+    "year": 2022,
+    "location": "Palo Alto, CA, United States"
+  },
+  "12-16": {
+    "year": 2024,
+    "location": "Berkeley, CA, United States"
+  },
+  "12-17": {
+    "year": 2019,
+    "location": "Palo Alto, CA, United States"
+  },
+  "12-18": {
+    "year": 2021,
+    "location": "Stanford, CA, United States"
+  },
+  "12-19": {
+    "year": 2021,
+    "location": null
+  },
+  "12-22": {
+    "year": 2023,
+    "location": "Palo Alto, CA, United States"
+  },
+  "12-23": {
+    "year": 2022,
+    "location": "Susanville, CA, United States"
+  },
+  "12-24": {
+    "year": 2022,
+    "location": "Susanville, CA, United States"
+  },
+  "12-25": {
+    "year": 2025,
+    "location": "San Francisco, CA, United States"
+  },
+  "12-26": {
+    "year": 2022,
+    "location": "Susanville, CA, United States"
+  },
+  "12-27": {
+    "year": 2025,
+    "location": "Milsons Point, NSW, Australia"
+  },
+  "12-28": {
+    "year": 2025,
+    "location": "Manly, NSW, Australia"
+  },
+  "12-29": {
+    "year": 2018,
+    "location": "Coronado, CA, United States"
+  },
+  "12-30": {
+    "year": 2025,
+    "location": "New South Wales, NSW, Australia"
+  },
+  "12-31": {
+    "year": 2007,
+    "location": null
+  }
+}
