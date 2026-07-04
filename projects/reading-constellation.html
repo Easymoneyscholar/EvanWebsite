@@ -73,9 +73,18 @@ const __DATA__ = {"nodes":[{"id":"b16158542","type":"book","title":"The Boys in 
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   }
   #tooltip b { color: #fbbf24; }
+  #back-link {
+    position: absolute;
+    top: 16px; left: 24px;
+    color: #94a3b8;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: 0 0 8px rgba(0,0,0,0.8);
+  }
+  #back-link:hover { color: #f1f5f9; }
   #title {
     position: absolute;
-    top: 18px; left: 24px;
+    top: 38px; left: 24px;
     color: #f1f5f9;
     font-size: 20px;
     font-weight: 600;
@@ -84,7 +93,7 @@ const __DATA__ = {"nodes":[{"id":"b16158542","type":"book","title":"The Boys in 
   }
   #subtitle {
     position: absolute;
-    top: 46px; left: 24px;
+    top: 66px; left: 24px;
     color: #94a3b8;
     font-size: 12.5px;
     max-width: 500px;
@@ -210,6 +219,7 @@ const __DATA__ = {"nodes":[{"id":"b16158542","type":"book","title":"The Boys in 
 </style>
 </head>
 <body>
+<a id="back-link" href="../projects.html">&larr; Back to Projects</a>
 <div id="title">📚 The Reading Constellation</div>
 <div id="subtitle">Every book I've read orbits around me at the center, arranged purely by when I read it — most recent closest in. Books with a tiny 🔥 have a review; click one to read it.</div>
 <div id="controls"><input id="search" type="text" placeholder="Search title or author…"></div>
